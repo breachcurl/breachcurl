@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="/img/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>BreachCurl</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+
+  
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<div class="header-top-bar navbar-light fixed-top" style="background-color: #db3737; color: #fff;">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="header-top-content">
+                            <div class="header-left">
+                                <ul class="welcome ">
+                                    <a >Welcome to BreachCurl Trainings & Services</a>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="header-top-content">
+                            <div class="header-right d-flex align-items-center justify-content-end">
+                                <div class="header-right-action mr-4 ">
+                                    <a href="https://www.facebook.com/breachcurlll" class="footer_social_media_icon p-3"><i class="fab fa-facebook-f" style="color: #fff;"></i></a>
+                        
+                                    <a href="https://instagram.com/breachcurl?igshid=YmMyMTA2M2Y=" class="footer_social_media_icon p-3"><i class="fab fa-instagram" style="color: #fff;"></i></a>
+                       
+                                    <a href="https://www.linkedin.com/company/breachcurl/" class="footer_social_media_icon p-3"><i class="fab fa-linkedin-in" style="color: #fff;"></i></a>
+
+                                    <a href="#" class="footer_social_media_icon p-3"><i class="fab fa-twitter" style="color: #fff;"></i></a>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<nav class="navbar fixed-top" style="width: 100%; height: 80px; color: whitesmoke; padding: 0px 100px;">
+			<div class="logo"><img src="/img/logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#portfolio_section">About</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="subjects/computer_courses.html#projects">New Courses</a></li>
+			</ul>
+			<a class="get-started" href="/getstarted">Get Started</a>
+			<img src="/img/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>The beautiful thing about learning is that nobody can take it away from you</p>
+				<h5>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</h5>
+				<!-- <div class="play fa fa-play">
+					<a href="" target="_blank" style="font-size: 20px;">Watch Now</a></span>
+				</div> -->
+			</div>
+			<div class="svg-image">
+				<img src="/img/svg1.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="/img/close.png" alt=""></div>
+			<div class="user">
+				<img src="/img/logo.jpeg" alt="Username">
+				<p>Raj baghel</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
